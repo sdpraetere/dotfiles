@@ -1,16 +1,28 @@
 {
-  "installed_packages":
-  [
-    "AdvancedNewFile",
-    "All Autocomplete",
-    "ApplySyntax",
-    "BracketHighlighter",
-    "Emmet",
-    "Git",
-    "GitGutter",
-    "JSX",
-    "Package Control",
-    "SCSS",
-    "ERB Snippets"
-  ]
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"All Autocomplete",
+		"ApplySyntax",
+		"Bootstrap 3 Snippets",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"ColorPicker",
+		"Emmet",
+		"ERB Snippets",
+		"Git",
+		"GitGutter",
+		"JSX",
+		"Material Theme",
+		"Package Control",
+		"SCSS",
+		"Seti_UI",
+		"Seti_UX",
+		"Themr",
+		"Trimmer"
+	]
 }

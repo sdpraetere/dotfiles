@@ -12,6 +12,7 @@
 [core]
   pager = less -FRSX
 	editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
+	excludesfile = /Users/saradepraetere/.gitignore_global
 
 [alias]
   co = checkout
@@ -48,4 +49,17 @@
   mergeoptions = --no-edit
 [user]
 	email = saradepraetere@gmail.com
-	name = Sara dePraetere
+	name = sara depraetere
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/saradepraetere/.stCommitMsg
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
